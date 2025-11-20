@@ -22,7 +22,7 @@ export const useChat = (conversationId: string) => {
         .order('created_at', { ascending: true });
 
       if (data) {
-        setMessages(data);
+        setMessages(data as Message[]);
       }
     };
 
