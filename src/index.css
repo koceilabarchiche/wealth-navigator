@@ -9,51 +9,52 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 220 26% 14%;
+    --foreground: 0 0% 0%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 26% 14%;
+    --card-foreground: 0 0% 0%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 26% 14%;
+    --popover-foreground: 0 0% 0%;
 
-    --primary: 220 40% 15%;
+    --primary: 158 100% 29%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 220 14% 96%;
-    --secondary-foreground: 220 26% 14%;
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 0%;
 
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 9% 46%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 46%;
 
-    --accent: 38 92% 50%;
-    --accent-foreground: 220 40% 15%;
+    --accent: 158 100% 35%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 220 40% 15%;
+    --border: 0 0% 91%;
+    --input: 0 0% 91%;
+    --ring: 158 100% 29%;
 
     --radius: 0.75rem;
     
-    /* Premium color palette */
-    --navy: 220 40% 15%;
-    --navy-light: 220 35% 25%;
-    --gold: 38 92% 50%;
-    --gold-light: 38 82% 60%;
-    --slate: 220 14% 96%;
-    --slate-dark: 220 9% 46%;
+    /* BNP Paribas color palette */
+    --bnp-green: 158 100% 29%;
+    --bnp-green-light: 158 100% 35%;
+    --bnp-green-dark: 158 100% 25%;
+    --bnp-black: 0 0% 0%;
+    --bnp-white: 0 0% 100%;
+    --bnp-gray: 0 0% 96%;
+    --bnp-gray-dark: 0 0% 46%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(220 40% 15%) 0%, hsl(220 35% 25%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(38 92% 50%) 0%, hsl(38 82% 60%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(220 14% 96%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(158 100% 29%) 0%, hsl(158 100% 35%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(158 100% 35%) 0%, hsl(158 100% 40%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(0 0% 96%) 100%);
     
     /* Shadows */
-    --shadow-elegant: 0 20px 60px -15px hsl(220 40% 15% / 0.15);
-    --shadow-subtle: 0 4px 20px -4px hsl(220 40% 15% / 0.08);
+    --shadow-elegant: 0 20px 60px -15px hsl(158 100% 29% / 0.15);
+    --shadow-subtle: 0 4px 20px -4px hsl(158 100% 29% / 0.08);
     
     /* Transitions */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -76,33 +77,33 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 220 40% 8%;
-    --foreground: 220 14% 96%;
+    --background: 0 0% 5%;
+    --foreground: 0 0% 96%;
 
-    --card: 220 35% 12%;
-    --card-foreground: 220 14% 96%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 96%;
 
-    --popover: 220 35% 12%;
-    --popover-foreground: 220 14% 96%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 96%;
 
-    --primary: 38 92% 50%;
-    --primary-foreground: 220 40% 15%;
+    --primary: 158 100% 35%;
+    --primary-foreground: 0 0% 0%;
 
-    --secondary: 220 35% 18%;
-    --secondary-foreground: 220 14% 96%;
+    --secondary: 0 0% 18%;
+    --secondary-foreground: 0 0% 96%;
 
-    --muted: 220 35% 18%;
-    --muted-foreground: 220 9% 65%;
+    --muted: 0 0% 18%;
+    --muted-foreground: 0 0% 65%;
 
-    --accent: 38 92% 50%;
-    --accent-foreground: 220 40% 15%;
+    --accent: 158 100% 35%;
+    --accent-foreground: 0 0% 0%;
 
     --destructive: 0 62.8% 50%;
-    --destructive-foreground: 220 14% 96%;
+    --destructive-foreground: 0 0% 96%;
 
-    --border: 220 35% 18%;
-    --input: 220 35% 18%;
-    --ring: 38 92% 50%;
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 158 100% 35%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

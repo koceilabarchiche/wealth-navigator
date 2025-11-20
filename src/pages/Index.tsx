@@ -3,6 +3,7 @@ import Expertise from "@/components/Expertise";
 import Process from "@/components/Process";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Chatbot from "@/components/Chatbot";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <Process />
       <Contact />
       <Footer />
+      <Chatbot />
     </div>
   );
 };
