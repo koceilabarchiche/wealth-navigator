@@ -47,6 +47,10 @@ All colors MUST be HSL.
     --bnp-gray: 0 0% 96%;
     --bnp-gray-dark: 0 0% 46%;
     
+    /* Legacy support for existing components */
+    --gold: 158 100% 35%;
+    --gold-light: 158 100% 40%;
+    
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(158 100% 29%) 0%, hsl(158 100% 35%) 100%);
     --gradient-accent: linear-gradient(135deg, hsl(158 100% 35%) 0%, hsl(158 100% 40%) 100%);
